@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { usePersonalInfo } from "../../hooks/usePersonalInfo";
 import { ThemeContext } from "../../context/DarkTheme";
 import { Header } from "../Header/Header";
-import { Footer } from "../Footer/Footer";
 import { ToggleThemeButton } from "../ToggleThemeButton/ToggleThemeButton";
 import { MainContent } from "../MainContent/MainContent";
 import { TextContainer } from "../TextContainer/TextContainer";
@@ -16,12 +15,11 @@ export const App = () => {
   const data = usePersonalInfo();
   return (
     <div className={`App ${darkMode && "App--dark-mode"}`}>
-      <Header>
-        <ToggleThemeButton setDarkMode={setDarkMode} darkMode={darkMode} />
-        <Title content="Paul Lazcano" type="biggest" darkMode={darkMode} />
-      </Header>
-
       <MainContent darkMode={darkMode}>
+        <Header>
+          <ToggleThemeButton setDarkMode={setDarkMode} darkMode={darkMode} />
+          <Title content="Paul Lazcano" type="biggest" darkMode={darkMode} />
+        </Header>
         <TextContainer size="large" darkMode={darkMode} type="wrapper">
           <TextContainer size="medium" darkMode={darkMode}>
             <Title
@@ -72,9 +70,6 @@ export const App = () => {
           <Paragraphs content={data.education.content} darkMode={darkMode} />
         </TextContainer>
       </MainContent>
-      <Footer>
-        <Paragraphs content='Paul Lazcano, 2022.' darkMode={darkMode} />
-      </Footer>
     </div>
   );
 };

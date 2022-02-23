@@ -4,11 +4,14 @@
   row-gap: 2rem;
 }
 .links {
-  color: #282c34;
+  color: var(--links-color);
   font-size: 1.6rem;
   text-decoration: none;
   letter-spacing: 0.08rem;
 }
-.links--dark-mode {
-  color: #fff;
+.links:hover {
+  color: var(--primary-color);
+}
+.links--dark-mode:hover {
+  color: var(--dark-primary-color);
 }
