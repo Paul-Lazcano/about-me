@@ -1,0 +1,16 @@
+.main-content {
+  display: flex;
+  row-gap: 5rem;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 100rem;
+  padding: 3rem 2rem;
+  border-radius: .5rem;
+  background-color: #f0f0f0;
+
+  transition: 200ms;
+}
+.main-content--dark-mode {
+  background-color: #ffffff10;
+}

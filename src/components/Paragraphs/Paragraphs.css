@@ -1,0 +1,10 @@
+.text {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  color: #282c34;
+  line-height: 2.8rem;
+  letter-spacing: 0.14rem;
+}
+.text--dark-mode {
+  color: #fff;
+}

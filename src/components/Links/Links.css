@@ -1,0 +1,14 @@
+.links-container {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 2rem;
+}
+.links {
+  color: #282c34;
+  font-size: 1.6rem;
+  text-decoration: none;
+  letter-spacing: 0.08rem;
+}
+.links--dark-mode {
+  color: #fff;
+}

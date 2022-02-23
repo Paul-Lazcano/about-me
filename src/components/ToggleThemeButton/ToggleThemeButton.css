@@ -1,0 +1,11 @@
+.toggle-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 4rem;
+
+  transition: 200ms;
+}
+.toggle-button--dark-mode {
+  color: #fff;
+}

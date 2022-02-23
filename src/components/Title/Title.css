@@ -1,0 +1,19 @@
+.title {
+  font-weight: lighter;
+  letter-spacing: 0.13rem;
+  color: #282c34;
+}
+.title--normal {
+  font-size: 3rem;
+  padding-block-end: 1rem;
+  border-block-end: .1rem solid #282c34;
+}
+.title--dark-mode {
+  color: #fff;
+  border-block-end: .1rem solid #fff;
+}
+.title--biggest {
+  font-size: 4rem;
+  font-weight: normal;
+  border: none;
+}
