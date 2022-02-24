@@ -14,6 +14,7 @@ import { usePersonalInfo } from "../../hooks/usePersonalInfo";
 import { Objectives } from "../../Pages/Objectives/Objectives";
 import { WorkExperience } from "../../Pages/WorkExperience/WorkExperience";
 import { Education } from "../../Pages/Education/Education";
+import { NotFound } from "../../Pages/NotFound/NotFound";
 import "./App.css";
 
 export const App = () => {
@@ -30,11 +31,13 @@ export const App = () => {
           </Header>
           <PageContainer>
             <Routes>
+              <Route path="/" element={<Home darkMode={darkMode} />} />
               <Route path="/about-me" element={<Home darkMode={darkMode} />} />
               <Route path="/education" element={<Education darkMode={darkMode} data={data} />} />
               <Route path="/objectives" element={<Objectives darkMode={darkMode} data={data} />} />
               <Route path="/work-experience" element={<WorkExperience darkMode={darkMode} data={data} />} />
               <Route path="/contact-info" element={<ContactInfo darkMode={darkMode} data={data} />} />
+              <Route path="*" element={<NotFound darkMode={darkMode} />} />
             </Routes>
           </PageContainer>
           <Footer darkMode={darkMode}/>
