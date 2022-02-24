@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom";
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ThemeContextProvider } from "./context/DarkTheme";
@@ -7,11 +6,9 @@ import './generals.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <ThemeContextProvider>
-        <App />
-      </ThemeContextProvider>
-    </BrowserRouter>
+    <ThemeContextProvider>
+      <App />
+    </ThemeContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

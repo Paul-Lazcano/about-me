@@ -3,8 +3,8 @@
   background-color: transparent;
   cursor: pointer;
   font-size: 4rem;
-  width: 100%;
-  border-block-end: .1rem solid var(--primary-color);
+  width: 20%;
+  border-block-end: .1rem solid var(--secondary-color);
 
   transition: 200ms;
 }

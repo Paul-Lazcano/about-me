@@ -6,7 +6,7 @@
 .title--normal {
   font-size: 3rem;
   padding-block-end: 1rem;
-  border-block-end: .1rem solid var(--primary-color);
+  border-block-end: .1rem solid var(--secondary-color);
 }
 .title--dark-mode {
   color: var(--dark-primary-color);
