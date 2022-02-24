@@ -5,13 +5,12 @@
   row-gap: 2rem;
   justify-content: space-around;
   align-items: center;
-  padding-block-start: 5rem;
+  padding-block-start: 6rem;
 }
 
 @media (min-width: 640px) {
   .header {
     height: auto;
-    padding: 0;
   }
 }
 @media (min-width: 1024px) {

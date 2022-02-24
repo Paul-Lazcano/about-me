@@ -9,7 +9,9 @@ export const ContactInfo = ({ darkMode, data }) => {
         type="normal"
         darkMode={darkMode}
       />
-      <Paragraphs content={data.contactInfo.content} darkMode={darkMode} />
+      <Paragraphs content='Hi! You can follow me in my social media accounts!' darkMode={darkMode} />
+      <Paragraphs content='Or' darkMode={darkMode} />
+      <Paragraphs content='Contact me by my email <alwaysbetterpaul@gmail.com>' darkMode={darkMode} />
     </TextContainer>
   );
 };
