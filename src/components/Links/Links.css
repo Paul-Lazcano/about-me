@@ -8,6 +8,7 @@
   font-size: 1.6rem;
   text-decoration: none;
   letter-spacing: 0.08rem;
+  width: 20%;
 }
 .links:hover {
   color: var(--primary-color);
