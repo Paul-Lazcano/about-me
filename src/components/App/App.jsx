@@ -30,7 +30,7 @@ export const App = () => {
           </Header>
           <PageContainer>
             <Routes>
-              <Route path="/" element={<Home darkMode={darkMode} />} />
+              <Route path="/about-me" element={<Home darkMode={darkMode} />} />
               <Route path="/education" element={<Education darkMode={darkMode} data={data} />} />
               <Route path="/objectives" element={<Objectives darkMode={darkMode} data={data} />} />
               <Route path="/work-experience" element={<WorkExperience darkMode={darkMode} data={data} />} />
