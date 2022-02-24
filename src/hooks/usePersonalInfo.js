@@ -26,7 +26,7 @@ export const usePersonalInfo = () => {
   }
   const education = {
     title: 'Education',
-    content: 'I studied programming speciality in my high school, then i started learnign in Platzi, a course online platform that specialice`s in tech. I`ve learning that way for a year and a half. I`m currently learning in the enterprice i commented before with the guide of all the eployeers here.'
+    content: `I studied programming speciality in my high school, then i started learnign in Platzi, a course online platform that specialice's in tech. I've learning that way for a year and a half. I'm currently learning in the enterprice i commented before with the guide of all the eployeers here.`
   }
   const data = {
     contactInfo,

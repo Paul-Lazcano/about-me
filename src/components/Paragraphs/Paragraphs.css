@@ -1,8 +1,8 @@
 .text {
+  font-weight: 300;
   font-size: 1.8rem;
-  font-weight: lighter;
-  color: var(--primary-color);
-  line-height: 2.8rem;
+  color: var(--terciary-color);
+  line-height: 2.9rem;
   letter-spacing: 0.14rem;
 }
 .text--dark-mode {

@@ -76,19 +76,6 @@ export const Menu = ({ darkMode }) => {
               Contact Info
             </Link>
           </li>
-          <li
-            onClick={() => setMenuActive((prevState) => !prevState)}
-            className={`menu__list-item ${
-              darkMode && "menu__list-item--dark-mode"
-            }`}
-          >
-            <Link
-              to="/social-links"
-              className={`menu__link ${darkMode && "menu__link--dark-mode"}`}
-            >
-              Social Links
-            </Link>
-          </li>
         </ul>
         <button
           className={`menu-button ${darkMode && "menu-button--dark-mode"}`}

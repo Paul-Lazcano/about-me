@@ -23,11 +23,15 @@
 }
 .menu__link {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--terciary-color);
   font-size: 2rem;
   letter-spacing: 0.15rem;
+  font-family: 'Montserrat', sans-serif;
 }
 .menu__link:hover {
+  color: var(--primary-color);
+}
+.menu-link:visited {
   color: var(--primary-color);
 }
 .menu__link--dark-mode:hover {
@@ -66,10 +70,11 @@
     z-index: 0;
     background-color: transparent;
     align-items: center;
+    letter-spacing: 0.2rem;
   }
   .menu {
     flex-flow: row wrap;
-    column-gap: 3rem;
+    column-gap: 1.5rem;
     row-gap: 3rem;
     justify-content: center;
   }
