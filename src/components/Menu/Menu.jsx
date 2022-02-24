@@ -18,7 +18,7 @@ export const Menu = ({ darkMode }) => {
             }`}
           >
             <Link
-              to="/"
+              to="/about-me"
               className={`menu__link ${darkMode && "menu__link--dark-mode"}`}
             >
               Home
