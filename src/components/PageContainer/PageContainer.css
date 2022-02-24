@@ -1,0 +1,18 @@
+.page-container {
+  display: flex;
+  row-gap: 5rem;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 130rem;
+}
+@media (min-width: 640px) {
+  .page-container {
+    padding: 3rem 20%;
+  }
+}
+@media (min-width: 1024px) {
+  .page-container {
+    padding: 3rem 20% 0 20%;
+  }
+}

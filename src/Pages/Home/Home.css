@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+  row-gap: 5rem;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 130rem;
+}
+@media (min-width: 640px) {
+  .home {
+    padding: 3rem 20%;
+  }
+}
+@media (min-width: 1024px) {
+  .home {
+    padding: 3rem 20% 0 20%;
+  }
+}

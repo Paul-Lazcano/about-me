@@ -11,7 +11,7 @@
 @media (min-width: 640px) {
   .header {
     height: auto;
-    padding-block-start: 2rem;
+    padding: 2rem;
   }
 }
 @media (min-width: 1024px) {

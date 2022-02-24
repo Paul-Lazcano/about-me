@@ -31,23 +31,10 @@ export const Menu = ({ darkMode }) => {
             }`}
           >
             <Link
-              to="/contact-info"
+              to="/education"
               className={`menu__link ${darkMode && "menu__link--dark-mode"}`}
             >
-              Contact Info
-            </Link>
-          </li>
-          <li
-            onClick={() => setMenuActive((prevState) => !prevState)}
-            className={`menu__list-item ${
-              darkMode && "menu__list-item--dark-mode"
-            }`}
-          >
-            <Link
-              to="/social-links"
-              className={`menu__link ${darkMode && "menu__link--dark-mode"}`}
-            >
-              Social Links
+              Education
             </Link>
           </li>
           <li
@@ -83,10 +70,23 @@ export const Menu = ({ darkMode }) => {
             }`}
           >
             <Link
-              to="/education"
+              to="/contact-info"
               className={`menu__link ${darkMode && "menu__link--dark-mode"}`}
             >
-              Education
+              Contact Info
+            </Link>
+          </li>
+          <li
+            onClick={() => setMenuActive((prevState) => !prevState)}
+            className={`menu__list-item ${
+              darkMode && "menu__list-item--dark-mode"
+            }`}
+          >
+            <Link
+              to="/social-links"
+              className={`menu__link ${darkMode && "menu__link--dark-mode"}`}
+            >
+              Social Links
             </Link>
           </li>
         </ul>
